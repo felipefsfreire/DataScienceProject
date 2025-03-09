@@ -23,7 +23,7 @@ Utilizando o Miro, foi criado um diagrama detalhando as seguintes tabelas:
 
 **Link para o Diagrama no Miro:**
 
-**https://miro.com/app/board/uXjVIUVfm9c=/**
+**<https://miro.com/app/board/uXjVIUVfm9c=/>**
 
 **Imagem do Diagrama:**
 ![Inserir imagem do diagrama criado no Miro](/img/modelo-conceitual.jpg)
@@ -40,12 +40,12 @@ Especificar os tipos de dados para cada coluna das tabelas.
 | Atributo       | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
 |----------------|--------------|----------------|-------------------|--------------------------------------------|
 | Customer_ID    | Integer      | Sim            | Não               | Identificador único do cliente             |
-| Name           | Chacacter    | Não            | Não               | Nome completo do cliente                   |
-| Email          | Chacacter    | Não            | Não               | Endereço de e-mail do cliente              |
-| Address        | Chacacter    | Não            | Não               | Endereço físico do cliente                 |
+| Name           | Character    | Não            | Não               | Nome completo do cliente                   |
+| Email          | Character    | Não            | Não               | Endereço de e-mail do cliente              |
+| Address        | Character    | Não            | Não               | Endereço físico do cliente                 |
 | Birth_Day      | Date         | Não            | Não               | Data de nascimento do cliente              |
-| State          | Chacacter    | Não            | Não               | Estado onde o cliente reside               |
-| Coutry         | Chacacter    | Não            | Não               | País onde o cliente reside                 |
+| State          | Character    | Não            | Não               | Estado onde o cliente reside               |
+| Country        | Character    | Não            | Não               | País onde o cliente reside                 |
 
 ***Order*** (Pedido)
 
@@ -61,7 +61,7 @@ Especificar os tipos de dados para cada coluna das tabelas.
 | Atributo       | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
 |----------------|--------------|----------------|-------------------|--------------------------------------------|
 | Product_ID     | Integer      | Sim            | Não               | Identificador único do produto             |
-| Product_name   | Chacacter    | Não            | Não               | Nome do produto                            |
+| Product_name   | Character    | Não            | Não               | Nome do produto                            |
 | Category_ID    | Integer      | Não            | Sim               | ID da categoria do produto (FK)           |
 | Unit_Price     | Real         | Não            | Não               | Preço unitário do produto                  |
 | Quantity       | Integer      | Não            | Não               | Quantidade em estoque do produto           |
@@ -71,7 +71,7 @@ Especificar os tipos de dados para cada coluna das tabelas.
 | Atributo       | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
 |----------------|--------------|----------------|-------------------|--------------------------------------------|
 | Category_ID    | Integer      | Sim            | Não               | Identificador único da categoria           |
-| Category_name  | Chacacter    | Não            | Não               | Nome da categoria                          |
+| Category_name  | Character    | Não            | Não               | Nome da categoria                          |
 
 ***Order_Items*** (Itens do Pedido)
 
