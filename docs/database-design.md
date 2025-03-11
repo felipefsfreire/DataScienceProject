@@ -37,21 +37,21 @@ Especificar os tipos de dados para cada coluna das tabelas.
 
 ***Customer*** (Cliente)
 
-| Atributo       | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
-|----------------|--------------|----------------|-------------------|--------------------------------------------|
-| Customer_ID    | Character    | Sim            | Não               | Identificador único do cliente             |
-| Name           | Character    | Não            | Não               | Nome completo do cliente                   |
-| Email          | Character    | Não            | Não               | Endereço de e-mail do cliente              |
-| Address        | Character    | Não            | Não               | Endereço físico do cliente                 |
-| Birth_Day      | Date         | Não            | Não               | Data de nascimento do cliente              |
-| State          | Character    | Não            | Não               | Estado onde o cliente reside               |
+| Atributo            | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
+|---------------------|--------------|----------------|-------------------|--------------------------------------------|
+| Customer_ID         | Character    | Sim            | Não               | Identificador único do cliente             |
+| Customer_Name       | Character    | Não            | Não               | Nome completo do cliente                   |
+| Email               | Character    | Não            | Não               | Endereço de e-mail do cliente              |
+| Address             | Character    | Não            | Não               | Endereço físico do cliente                 |
+| Customer_Birth_Date | Date         | Não            | Não               | Data de nascimento do cliente              |
+| State               | Character    | Não            | Não               | Estado onde o cliente reside               |
 
 ***Order*** (Pedido)
 
 | Atributo       | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
 |----------------|--------------|----------------|-------------------|--------------------------------------------|
 | Order_ID       | Character    | Sim            | Não               | Identificador único do pedido              |
-| Order_date     | Datetime     | Não            | Não               | Data e hora em que o pedido foi feito      |
+| Order_date     | Date         | Não            | Não               | Data em que o pedido foi feito             |
 | Order_Value    | Real         | Não            | Não               | Valor total do pedido                      |
 | Customer_ID    | Character    | Não            | Sim               | ID do cliente que fez o pedido (FK)        |
 
@@ -61,9 +61,9 @@ Especificar os tipos de dados para cada coluna das tabelas.
 |----------------|--------------|----------------|-------------------|--------------------------------------------|
 | Product_ID     | Character    | Sim            | Não               | Identificador único do produto             |
 | Product_name   | Character    | Não            | Não               | Nome do produto                            |
-| Category_ID    | Character    | Não            | Sim               | ID da categoria do produto (FK)           |
+| Category_ID    | Character    | Não            | Sim               | ID da categoria do produto (FK)            |
 | Unit_Price     | Real         | Não            | Não               | Preço unitário do produto                  |
-| Quantity       | Integer      | Não            | Não               | Quantidade em estoque do produto           |
+| Stock_Quantity | Integer      | Não            | Não               | Quantidade em estoque do produto           |
 
 ***Categories*** (Categorias)
 
@@ -76,7 +76,7 @@ Especificar os tipos de dados para cada coluna das tabelas.
 
 | Atributo       | Tipo de Dado | Chave Primária | Chave Estrangeira | Descrição                                  |
 |----------------|--------------|----------------|-------------------|--------------------------------------------|
-| ID             | Character    | Sim            | Não               | Identificador único do item do pedido      |
+| Itens_ID       | Character    | Sim            | Não               | Identificador único do item do pedido      |
 | Order_ID       | Character    | Não            | Sim               | ID do pedido ao qual o item pertence (FK)  |
 | Product_ID     | Character    | Não            | Sim               | ID do produto do item (FK)                |
 | Order_Quantity | Integer      | Não            | Não               | Quantidade do produto no pedido            |
