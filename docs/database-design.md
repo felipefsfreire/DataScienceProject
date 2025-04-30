@@ -44,7 +44,6 @@ Especificar os tipos de dados para cada coluna das tabelas.
 | Email               | Character    | Não            | Não               | Endereço de e-mail do cliente              |
 | Address             | Character    | Não            | Não               | Endereço físico do cliente                 |
 | Customer_Birth_Date | Date         | Não            | Não               | Data de nascimento do cliente              |
-| State               | Character    | Não            | Não               | Estado onde o cliente reside               |
 
 ***Order*** (Pedido)
 
