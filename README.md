@@ -57,7 +57,3 @@ Ao final deste projeto, esperamos:
 * Implementar um sistema de recomendação de produtos personalizado.
 * Analisar o impacto de diferentes promoções através de testes A/B.
 * Detectar transações fraudulentas para aumentar a segurança do e-commerce.
-
-## Contato
-
-[Seu nome] - [Seu e-mail] - [Seu LinkedIn/GitHub - opcional]
