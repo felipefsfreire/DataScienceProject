@@ -23,25 +23,20 @@ Este projeto tem como objetivo aplicar técnicas de Data Science para analisar e
 ## Estrutura do Projeto
 
 projeto-ecommerce-analise/
-├── docs/
 ├── database/
+├── docs/
 ├── img/
 ├── notebooks/
-├── R/
 ├── sql/
-├── scripts/
-├── reports/
-├── models/
+├── tests/
 ├── README.md
 
-* **`docs/`**: Documentação geral do projeto (diretrizes, dicionário de dados, etc.).
 * **`database/`**: Arquivos do banco de dados (scripts SQL, dumps, etc.).
+* **`docs/`**: Documentação geral do projeto (diretrizes, dicionário de dados, etc.).
 * **`img/`**: Imagens e gráficos gerados durante as análises.
 * **`notebooks/`**: Jupyter Notebooks com o código das análises.
-* **`R/`**: Scripts e análises em R (se você for usar R).
 * **`sql/`**: Scripts SQL para criação e manipulação do banco de dados.
-* **`reports/`**: Relatórios de análise em diferentes formatos.
-* **`models/`**: Modelos de machine learning treinados.
+* **`tests/`**: Scripts e arquivos para testes automatizados do código.
 * **`README.md`**: Descrição geral do projeto e instruções.
 
 ## Passos para Executar o Projeto
