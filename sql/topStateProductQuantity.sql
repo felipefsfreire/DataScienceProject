@@ -1,6 +1,6 @@
--- Desafio: Quais foram os 3 produtos mais vendidos (em quantidade) para cada estado?"
+-- Desafio: Qual foi o produto mais vendidos (em quantidade) para cada estado?"
 -- Requisitos:
--- Para cada estado, encontre os três produtos com maior quantidade total vendida.
+-- Para cada estado, encontre o produto com maior quantidade total vendida.
 -- A consulta deve retornar:
 -- state (estado)
 -- product (produto)
@@ -35,4 +35,4 @@ SELECT
     total_quantity,
     rank
 FROM topStateProductQuantity
-WHERE rank <= 3
+WHERE rank = 1
