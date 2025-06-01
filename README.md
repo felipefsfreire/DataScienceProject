@@ -23,13 +23,14 @@ Este projeto tem como objetivo aplicar técnicas de Data Science para analisar e
 ## Estrutura do Projeto
 
 projeto-ecommerce-analise/
-├── database/
-├── docs/
-├── img/
-├── notebooks/
-├── sql/
-├── tests/
-├── README.md
+
+* ├── database/
+* ├── docs/
+* ├── img/
+* ├── notebooks/
+* ├── sql/
+* ├── tests/
+* ├── README.md
 
 * **`database/`**: Arquivos do banco de dados (scripts SQL, dumps, etc.).
 * **`docs/`**: Documentação geral do projeto (diretrizes, dicionário de dados, etc.).
