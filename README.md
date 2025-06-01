@@ -1,5 +1,8 @@
 # Projeto de Análise de Vendas e Previsões de Comportamento de Clientes para E-commerce
 
+## 🚧Em Construção🚧
+Este material está sendo **continuamente atualizado e aprimorado** à medida que o projeto avança.
+
 ## Descrição
 
 Este projeto tem como objetivo aplicar técnicas de Data Science para analisar e prever o comportamento de clientes em um e-commerce. O foco é criar um modelo que ajude a entender o comportamento de compra, prever clientes propensos a churn (abandono), sugerir produtos com base no histórico de compras, realizar um teste A/B para avaliar promoções e detectar possíveis fraudes nas transações.
